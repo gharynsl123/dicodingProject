@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "237574900708",
+    "project_id": "flutter-login-ad2c4",
+    "storage_bucket": "flutter-login-ad2c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237574900708:android:b44d9d689c31ac5de815f1",
+        "android_client_info": {
+          "package_name": "com.example.dicoding"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "237574900708-laprp2b0eja8tc5gn7q6h7aqk4oluqv9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBmxMxMIlhMa2QQShdgqCwIjNd8b0el0Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "237574900708-laprp2b0eja8tc5gn7q6h7aqk4oluqv9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

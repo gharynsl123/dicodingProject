@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-class DetailScreen extends StatefulWidget {
+
+class DetailScreen extends StatelessWidget {
   final String judul;
   final String deskripsi;
   final String gambar;
@@ -12,11 +13,6 @@ class DetailScreen extends StatefulWidget {
       required this.gambar})
       : super(key: key);
 
-  @override
-  State<DetailScreen> createState() => _DetailScreenState();
-}
-
-class _DetailScreenState extends State<DetailScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -34,7 +30,7 @@ class _DetailScreenState extends State<DetailScreen> {
                 bottomRight: Radius.circular(30),
               ),
               child: Image.network(
-                widget.gambar,
+                gambar,
                 fit: BoxFit.cover,
               ),
             ),
@@ -42,7 +38,7 @@ class _DetailScreenState extends State<DetailScreen> {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 20),
             child: Text(
-              widget.judul,
+              judul,
               style: const TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.bold,
@@ -58,7 +54,7 @@ class _DetailScreenState extends State<DetailScreen> {
             child: Padding(
               padding: const EdgeInsets.all(20.0),
               child: Text(
-                widget.deskripsi,
+                deskripsi,
                 style: const TextStyle(
                     color: Colors.black,
                     fontWeight: FontWeight.w500,
@@ -69,5 +65,6 @@ class _DetailScreenState extends State<DetailScreen> {
         ],
       ),
     );
+  
   }
 }
